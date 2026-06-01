@@ -4,8 +4,15 @@ STEP_WEEK3_HomeWork
 ## HomeWork1 (hw3_1.py)
 ### Objective:
 Make a calculator which supports multiplication and division.
-
-
+  - def tokenize (line) : Make tokens of numbers or operators from line(string input).
+    - def read_numbers (line,index) : Make a token of a number. Return the token and index with 1 added.
+    - def read_plus (line,index) : Make a token of plus operator. Return the token and index with 1 added.
+    - def read_minus (line,index) : Make a token of minus operator. Return the token and index with 1 added.
+    - def read_multiply (line,index) : Make a token of multipulation operator. Return the token and index with 1 added.
+    - def read_devide (line,index) : Make a operator of division operator. Return the token and index with 1 added.
+     <br>
+  - def make_new_tokens_without_multiply_and_devide (tokens) : Make new 'tokens' (list of tokens) without multipulation and devision operators.
+    - def evaluate_multiply_and_devide(num_dev_mul_tokens) : From num_dev_mul_tokens (list of tokens of only numbers, multipulation operators and division operators), calculate and return the answer.
 
 ## Homework3 (hw3_3.py)
 ### Objective:
