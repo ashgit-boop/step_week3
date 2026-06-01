@@ -20,8 +20,8 @@ Make a calculator which supports multiplication and division.
     <br>
   - def test (line) : Test the functions for line.  
    <br>  
-  - def run_test() : Show the answers of the tests.
-   <br>
+  - def run_test() : Show the answers of the tests.  
+
    
 ## Homework3 (hw3_3.py)
 ### Objective:
