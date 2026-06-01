@@ -16,7 +16,13 @@ Make a calculator which supports multiplication and division.
     - def evaluate_multiply_and_devide (num_dev_mul_tokens) : From num_dev_mul_tokens (list of tokens of only numbers, multipulation operators and division operators), calculate and return the answer. Add the answer to the list made in make_new_tokens_without_multiply_and_devide.  
       <br>
   - def evaluate (new_tokens) : Do addition and subtraction in new_tokens.  
-    (In new_tokens, because make_new_tokens_without_multiply_and_devide is executed earlier, neither multipulation no devision operator is contained.) 
+    (In new_tokens, because make_new_tokens_without_multiply_and_devide is executed earlier, neither multipulation no devision operator is contained.)  
+    <br>
+  - def test (line) : Test the functions for line.  
+   <br>  
+  - def run_test() : Show the answers of the tests.
+   <br>
+   
 ## Homework3 (hw3_3.py)
 ### Objective:
 Make a calculator which supports parentheses by expanding the code made in hw3_1.py.
