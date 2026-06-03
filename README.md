@@ -38,3 +38,12 @@ Make a calculator which supports parentheses by expanding the code made in hw3_1
 ## HomeWork4 (hw3_4.py)
 ### Objective:
 Make a calculator which supports functions such as abs(), int() and round() by expanding the code in hw3_3.py.
+### Functions
+  - def make_new_tokens_without_funcs (tokens) : Make and return tokens without functions such as abs(), int() and round(). (Calculate these functions and add to new_tokens.)
+
+## About HomeWork2
+  - Add test cases in each files. In hw3_1.py and hw3_3.py, cases that cause errors are removed. In hw3_1_new.py, hw3_3_new.py and hw3_4.py, since error handling is in place, error cases are contained.
+## About hw3_1_new.py and hw3_3_new.py 
+  - Implemented error handling not to exit when any errors occur.
+  - Reduced the amount of commands in make_new_tokens_without_multiply_and_devide() so that readability can be improved.
+  - Put evaluate_plus_minus() and make_new_tokens_without_multiply_and_devide() in evaluate() so that readability can be improved and commands can be grouped together.
