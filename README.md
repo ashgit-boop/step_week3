@@ -26,8 +26,13 @@ Make a calculator which supports multiplication and division.
 ## Homework3 (hw3_3.py)
 ### Objective:
 Make a calculator which supports parentheses by expanding the code made in hw3_1.py.
-
-
+### Functions
+  - def return_answer (line) : Return the answer from the given line. If there is a parentheses, this function is repeated until there is no one.
+    - def parentheses_match_check (line) : Check wheter the parentheses in the line used correctly or not.(If there in no parentheses in the line, this returns True.)
+    - def is_parentheses (line) : Check whether there is any parentheses in the line. If there is, this returns True, and if not, returns False.
+    - def return_new_line_without_parentheses_and_indexes (line) : Return the string without a parentheses in the line, the index of the left parentheses and the right parentheses.
+    - def remake_line (tmp_ans,line,left,right) : Return the substring from the beginning of the line up to but not including the `left` position, concatenated with `tmp_ans`, followed by the substring starting from the `right`+1 position.
+  - def main(line) : Return return_answer(line)
 
 
 ## HomeWork4 (hw3_4.py)
