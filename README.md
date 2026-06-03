@@ -11,15 +11,15 @@ Make a calculator which supports multiplication and division.
     - def read_minus (line,index) : Make a token of minus operator. Return the token and index with 1 added.
     - def read_multiply (line,index) : Make a token of multipulation operator. Return the token and index with 1 added.
     - def read_devide (line,index) : Make a operator of division operator. Return the token and index with 1 added.
-    <br>
+    
   - def make_new_tokens_without_multiply_and_devide (tokens) : Make new 'tokens' (list of tokens) without multipulation and devision operators.
-    - def evaluate_multiply_and_devide (num_dev_mul_tokens) : From num_dev_mul_tokens (list of tokens of only numbers, multipulation operators and division operators), calculate and return the answer. Add the answer to the list made in make_new_tokens_without_multiply_and_devide.  
-      <br>
+    - def evaluate_multiply_and_devide (num_dev_mul_tokens) : From num_dev_mul_tokens (list of tokens of only numbers, multipulation operators and division operators), calculate and return the answer. Add the answer to the list made in make_new_tokens_without_multiply_and_devide.
+    - 
   - def evaluate (new_tokens) : Do addition and subtraction in new_tokens.  
     (In new_tokens, because make_new_tokens_without_multiply_and_devide is executed earlier, neither multipulation no devision operator is contained.)  
     <br>
   - def test (line) : Test the functions for line.  
-   <br>  
+    <br>  
   - def run_test() : Show the answers of the tests.  
 
    
